@@ -7,6 +7,7 @@ class Player {
     private final int screenWidth, screenHeight;  // dimensions of the rink to stay in bounds
     private Color color;  // color of the mallet
 
+
     //initializes a new Player (mallet)
     public Player(int startX, int startY, Color color, int screenWidth, int screenHeight) {
         this.x = startX;  //set the initial horizontal position
